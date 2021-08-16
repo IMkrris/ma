@@ -14,7 +14,7 @@ TN_Bots
 </i>"""    
     
     HELP_TEXT = """
-
+Join @Tentkottamovies_1
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
