@@ -122,9 +122,15 @@ async def auto_filter(bot: Client, update: Message):
                 file_link = f"https://t.me/Tentkottamovies_1"
             
             results.append(
-                [
-                    InlineKeyboardButton(button_text, url=file_link)
-                ]
+                    [
+                        [
+                            InlineKeyboardButton
+                                (
+                                    'Developers', url="https://t.me/tn_support"
+                                )
+                        ]
+                    ]
+                )
             )
     else:
         return # return if no files found for that query
