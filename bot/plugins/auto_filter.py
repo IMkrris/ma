@@ -131,7 +131,6 @@ async def auto_filter(bot: Client, update: Message):
                         ]
                     ]
                 )
-            )
     else:
         return # return if no files found for that query
     
